@@ -25,9 +25,11 @@
 
 ## Measurement Objects
 
-| Name           | Type            | Repository                                  | Description                                  |
-|----------------|-----------------|---------------------------------------------|----------------------------------------------|
-| Video Exporter | Exporter Object | [aveto_mo_videoexporter][videoexporter-url] | Allows exporting video streams to .avi files |
+| Name            | Type                 | Repository                                      | Description                                      |
+|-----------------|----------------------|-------------------------------------------------|--------------------------------------------------|
+| Video Exporter  | Exporter Object      | [aveto_mo_videoexporter][videoexporter-url]     | Allows exporting video streams to .avi files     |
+| Tagging Example | Visualization Object | [aveto_mo_tagging_example][tagging_example-url] | Example to demonstrate the tagging functionality |
+| Data Forwarding | Processor Object     | [aveto_mo_data_forwarding][data_forwarding-url] | A sample implementation to be able to forward individual data streams from AVETO to external software and vice versa |
 
 
 <!---Links And Images -->
@@ -36,3 +38,5 @@
 [star-shield]: https://img.shields.io/github/stars/bplus-group/aveto_mo.svg?style=for-the-badge&color=144E73&labelColor=808080
 [star-url]: https://github.com/bplus-group/aveto_mo
 [videoexporter-url]: https://github.com/bplus-group/aveto_mo_videoexporter
+[tagging_example-url]: https://github.com/bplus-group/aveto_mo_tagging_example
+[data_forwarding-url]: https://github.com/bplus-group/aveto_mo_data_forwarding
